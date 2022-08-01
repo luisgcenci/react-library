@@ -1,10 +1,11 @@
 # NodeJS Backend App - Starter
+
 React app with Redux, Routes and absolute path set up. Ready to use with Flexbox web layout model.
 
 # Minimum Dependencies
+
 [NodeJS](https://nodejs.org/en/download/) \
 [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
-
 
 # Features
 
@@ -48,12 +49,17 @@ react-starter
 - **src/hooks/ -** Redux Hooks.
 - **src/index.js -** Renders Main React Component onto root element.
 - **src/store/ -** Redux Store.
-  
+
 # Set Up
-### Clone this repo 
-```https://github.com/luisgcenci/react-starter.git```
+
+### Clone this repo
+
+`https://github.com/luisgcenci/react-starter.git`
+
 ### Install Dependencies
-```yarn install```
+
+`yarn install`
 
 ### How to Run
-```yarn start```
+
+`yarn start`

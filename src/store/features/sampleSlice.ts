@@ -1,15 +1,15 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface userState {
-  status: Boolean
+  status: Boolean;
 }
 
 const initialState: userState = {
-  status: false
+  status: false,
 };
 
 const sampleSlice = createSlice({
-  name: 'user',
+  name: "user",
   initialState,
   reducers: {
     updateStatus(state: any, action: PayloadAction<Boolean>) {
@@ -19,8 +19,6 @@ const sampleSlice = createSlice({
   },
 });
 
-export const {
-  updateStatus,
-} = sampleSlice.actions;
+export const { updateStatus } = sampleSlice.actions;
 
 export default sampleSlice.reducer;
